@@ -23,4 +23,44 @@ Date:   Tue Jul 28 19:05:52 2026 +0530
 2acab69 (HEAD -> main) HEAD@{0}: commit: readme file
 bdf9dae HEAD@{1}: commit (initial): Initial commit
 # PS E:\AWS-Devops-GT\Devops\Git\git-testing> git add remote orgin 'https://github.com/rathinam-02/git'
-#
+## PS E:\AWS-Devops-GT\Devops\Git\git-testing> git mv readme.md readme-commands.md
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    readme.md -> readme-commands.md
+
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git commint -m 'renamed file readme-commands.md'
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git commit -m 'renamed file readme-commands.md' 
+[main 7187769] renamed file readme-commands.md
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename readme.md => readme-commands.md (100%)
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git pull orgin main   
+remote: Enumerating objects: 66, done.
+remote: Counting objects: 100% (66/66), done.
+remote: Compressing objects: 100% (41/41), done.
+remote: Total 66 (delta 29), reused 53 (delta 20), pack-reused 0 (from 0)
+Unpacking objects: 100% (66/66), 8.55 KiB | 2.00 KiB/s, done.
+From https://github.com/rathinam-02/git
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> orgin/main
+fatal: refusing to merge unrelated histories
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git fetch 
+remote: Enumerating objects: 26, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 20 (delta 9), reused 15 (delta 4), pack-reused 0 (from 0)
+Unpacking objects: 100% (20/20), 1.85 KiB | 2.00 KiB/s, done.
+From https://github.com/rathinam-02/git
+ * [new branch]      bug         -> orgin/bug
+ * [new branch]      feature     -> orgin/feature
+ * [new branch]      feature2    -> orgin/feature2
+ * [new branch]      new-feature -> orgin/new-feature
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git pull orgin main
+From https://github.com/rathinam-02/git
+ * branch            main       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories

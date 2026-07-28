@@ -60,3 +60,7 @@ From https://github.com/rathinam-02/git
  * [new branch]      feature     -> orgin/feature
  * [new branch]      feature2    -> orgin/feature2
  * [new branch]      new-feature -> orgin/new-feature
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git pull orgin main
+From https://github.com/rathinam-02/git
+ * branch            main       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
