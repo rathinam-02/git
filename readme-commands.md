@@ -87,3 +87,38 @@ Switched to branch 'git-main'
 Your branch is up to date with 'orgin/git-main'.
 # PS E:\AWS-Devops-GT\Devops\Git\git-testing> git switch -c git-command
 Switched to a new branch 'git-command'
+
+TO merge we need to switch to the branch in which we need to merge 
+#PS E:\AWS-Devops-GT\Devops\Git\git-testing> git branch
+* Main-Branch
+  branch-test
+  git-command
+  git-main
+  main
+
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git switch git-main
+Switched to branch 'git-main'
+
+Now 
+# git merge git-command
+
+
+
+
+
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git stash
+Saved working directory and index state WIP on git-command: 6926a04 edited
+
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git stash list
+stash@{0}: WIP on git-command: 6926a04 edited
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git stash pop
+On branch git-command
+Your branch is up to date with 'orgin/git-command'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme-commands.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (f31aa071add6997b9f6f8bd1a53428ee18297eaf)
