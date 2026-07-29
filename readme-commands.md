@@ -2,6 +2,18 @@
 # git --version
 # git config --global user.name 'rathinam-02'
 # git config --global user.email 'rathinamaanikamm@gmail.com'
+# create a new repository on the command line
+echo "# testing" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rathinam-02/testing.git
+git push -u origin main
+# push an existing repository from the command line
+git remote add origin https://github.com/rathinam-02/testing.git
+git branch -M main
+git push -u origin main
 # git config --global init.defaultBranch main
 # git init
 # git status
@@ -64,3 +76,16 @@ From https://github.com/rathinam-02/git
 From https://github.com/rathinam-02/git
  * branch            main       -> FETCH_HEAD
 fatal: refusing to merge unrelated histories
+# create a new repository on the command line
+echo "# testing" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rathinam-02/testing.git
+git push -u origin main
+# push an existing repository from the command line
+git remote add origin https://github.com/rathinam-02/testing.git
+git branch -M main
+git push -u origin main
+#
