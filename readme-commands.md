@@ -101,6 +101,11 @@ Switched to branch 'git-main'
 
 Now 
 # git merge git-command
+and when it shows the conflict open the file in VI and edit the code in the file and save it and 
+then git add .
+and git commit -m 'message' 
+to resolve the merge conflict
+
 
 
 
