@@ -77,15 +77,24 @@ From https://github.com/rathinam-02/git
  * branch            main       -> FETCH_HEAD
 fatal: refusing to merge unrelated histories
 # create a new repository on the command line
-echo "# testing" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/rathinam-02/testing.git
-git push -u origin main
+# echo "# testing" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/rathinam-02/testing.git
+# git push -u origin main
 # push an existing repository from the command line
-git remote add origin https://github.com/rathinam-02/testing.git
-git branch -M main
-git push -u origin main
-#
+# git remote add origin https://github.com/rathinam-02/testing.git
+# git branch -M main
+# git push -u origin main
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git branch
+  Main-Branch
+  branch-test
+  git-main
+* main
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git switch git-main
+Switched to branch 'git-main'
+Your branch is up to date with 'orgin/git-main'.
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git switch -c git-command
+Switched to a new branch 'git-command'
