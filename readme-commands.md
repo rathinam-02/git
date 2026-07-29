@@ -31,6 +31,20 @@ Author: rathinam-02 <rathinamaanikamm@gmail.com>
 Date:   Tue Jul 28 19:05:52 2026 +0530
 
     Initial commit
+
+ #   PS E:\AWS-Devops-GT\Devops\Git\git-testing> git log --oneline
+4c6f918 (HEAD -> Main-Branch) readme-conflict-merge
+6a63900 (orgin/git-main, git-main, git-command) done merge
+63fba78 Merge branch 'git-command' into git-main merge complete
+b3829bd merge instruction
+17bf68d merge
+6926a04 (orgin/git-command) edited
+6d8b0df Merge pull request #5 from rathinam-02/git-command
+22f847d new-commit-new-branch
+28acfc0 new-branch commit
+ddd2612 (branch-test) revert done
+5ce2b83 repo create cmd added
+a85f4ce all changed saved
 # PS E:\AWS-Devops-GT\Devops\Git\git-testing> git reflog
 2acab69 (HEAD -> main) HEAD@{0}: commit: readme file
 bdf9dae HEAD@{1}: commit (initial): Initial commit
