@@ -120,8 +120,29 @@ then git add .
 and git commit -m 'message' 
 to resolve the merge conflict
 
-
-
+# git pull  (merge- fast-forward-)
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git branch
+  Main-Branch
+  branch-test
+  git-command
+* git-main
+  main
+# PS E:\AWS-Devops-GT\Devops\Git\git-testing> git pull orgin git-main
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 12 (delta 7), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (12/12), 4.07 KiB | 4.00 KiB/s, done.
+From https://github.com/rathinam-02/git
+ * branch            git-main   -> FETCH_HEAD
+   6a63900..0d68aa0  git-main   -> orgin/git-main
+Updating 6a63900..0d68aa0
+Fast-forward
+ index.html         |  4 ++--
+ readmd.md          | 11 ++++++++---
+ readme-commands.md |  6 ++++--
+ readme.md          | 11 +++++++++--
+ 4 files changed, 23 insertions(+), 9 deletions(-)
 
 
 
