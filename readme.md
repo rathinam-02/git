@@ -2,6 +2,8 @@ readme file
 
 #readme from bug - New change for conflict
 #git course- conflict
+git revert
+git check revert done
 #add changes in readme
 #ready for conflict
 #made changes
