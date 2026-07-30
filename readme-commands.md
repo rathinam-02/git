@@ -1,4 +1,6 @@
-# Git course and commands
+ Git course and commands
+ following commands for git 
+ testing pull (auto-merge)
 # git --version
 # git config --global user.name 'rathinam-02'
 # git config --global user.email 'rathinamaanikamm@gmail.com'
