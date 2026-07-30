@@ -1,4 +1,7 @@
 # Git course and commands
+testing git 
+#folling commands for git 
+#install git
 # git --version
 # git config --global user.name 'rathinam-02'
 # git config --global user.email 'rathinamaanikamm@gmail.com'
@@ -19,6 +22,7 @@ Author: rathinam-02 <rathinamaanikamm@gmail.com>
 Date:   Tue Jul 28 19:05:52 2026 +0530
 
     Initial commit
+    
 # PS E:\AWS-Devops-GT\Devops\Git\git-testing> git reflog
 2acab69 (HEAD -> main) HEAD@{0}: commit: readme file
 bdf9dae HEAD@{1}: commit (initial): Initial commit
@@ -39,6 +43,8 @@ The most similar command is
 [main 7187769] renamed file readme-commands.md
  1 file changed, 0 insertions(+), 0 deletions(-)
  rename readme.md => readme-commands.md (100%)
+
+ testing merge
 # PS E:\AWS-Devops-GT\Devops\Git\git-testing> git pull orgin main   
 remote: Enumerating objects: 66, done.
 remote: Counting objects: 100% (66/66), done.
@@ -48,7 +54,8 @@ Unpacking objects: 100% (66/66), 8.55 KiB | 2.00 KiB/s, done.
 From https://github.com/rathinam-02/git
  * branch            main       -> FETCH_HEAD
  * [new branch]      main       -> orgin/main
-fatal: refusing to merge unrelated histories
+fatal: refusing to merge unrelated histories\'
+testing merge
 # PS E:\AWS-Devops-GT\Devops\Git\git-testing> git fetch 
 remote: Enumerating objects: 26, done.
 remote: Counting objects: 100% (26/26), done.
