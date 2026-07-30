@@ -1,6 +1,8 @@
-readme file
-
-#readme from bug - New change for conflict
+git readme file
+testing git
+now 
+# git stash
+readme from bug - New change for conflict
 #git course- conflict
 git revert
 git check revert done
